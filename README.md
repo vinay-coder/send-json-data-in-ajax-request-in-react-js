@@ -21,11 +21,11 @@ i have spent lot of time to send json data in ajax request in react js and gettt
 
 # getting in php
 
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+		header("Access-Control-Allow-Origin: *");
+		header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 
-$postData = file_get_contents("php://input");
-$postData=json_decode($postData);
-echo "<pre>";
-print_r($postData);
+		$postData = file_get_contents("php://input");
+		$postData=json_decode($postData);
+		echo "<pre>";
+		print_r($postData);
