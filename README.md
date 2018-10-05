@@ -4,20 +4,20 @@ i have spent lot of time to send json data in ajax request in react js and gettt
 
 # In React js Ajax
 
-fetch(url, {
-  method: 'POST', // or 'PUT'
-  body: JSON.stringify(fieldsList), // data can be `string` or {object}!
-  headers:{
-    'Content-Type': 'application/json'
-  }
-})
-.then(result => {
-	console.log(result);
-	return result.json();
-})
-.then(jsonResult => {
-console.log(jsonResult);
-});
+		fetch(url, {
+		  method: 'POST', // or 'PUT'
+		  body: JSON.stringify(fieldsList), // data can be `string` or {object}!
+		  headers:{
+		    'Content-Type': 'application/json'
+		  }
+		})
+		.then(result => {
+			console.log(result);
+			return result.json();
+		})
+		.then(jsonResult => {
+		console.log(jsonResult);
+		});
 
 # getting in php
 
